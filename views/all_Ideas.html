@@ -1,0 +1,19 @@
+{% for idea in ideas %}
+<input type="hidden" name="_method" value="DELETE" />
+<div data-id="{{idea.id}}" class="idea">
+  <img src="{{idea.image}}" alt="Imagem de {{idea.title}}" />
+
+  <div class="content">
+    <h3>{{idea.title}}</h3>
+    <p>{{idea.category}}</p>
+    <div class="description">
+      {{idea.description}}
+    </div>
+    <a href="{{idea.link}}" target="a_blank">Ir para Ideia</a>
+  </div>
+
+  <button type="submit" value="Submit" onclick="onDelete(this.parentElement)">
+    <img src="../assets/delete.svg" alt="Lixeira" />
+  </button>
+</div>
+{% endfor %}
