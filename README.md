@@ -2,7 +2,7 @@
 
   <img alt="Semana OmniStack" src="./assets/rocketseat.svg" width="200px" />
   <br/>
-  🚀 Semana OmniStack 11.0 / WorkShopDev - Rocketseat
+  🚀 WorkshopDev Especial / Casa Criativa - Rocketseat
 </h2>
 
 <h4 align="center">
